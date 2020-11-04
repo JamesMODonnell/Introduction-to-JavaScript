@@ -19,9 +19,12 @@ Do the following:
 */
 
 var votingAge = 18
-if 
+if (age >= 18){
+  return true
+}
 
 /*
+texting
 Task 1b - Values
 
 Do the following:   
