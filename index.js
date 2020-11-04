@@ -18,10 +18,10 @@ Do the following:
    HINT: no function required
 */
 
-var votingAge = 18
-if (age >= 18){
-  return true
-}
+// var votingAge = 18
+// if (age >= 18){
+//   return true
+// }
 
 /*
 texting
@@ -217,16 +217,8 @@ Using the annoyingSong function below do the following:
       "(number) bottles of soda on the wall, (number) bottles of soda, take one down pass it around (number left over) bottles of soda on the wall"
 */
 
-function annoyingSong(number){
-        var number;
-        var numberLeft;
-        for (i=number; i>=1; i--){
-          return "{$number} bottles of soda on the wall, {$number} bottles of soda, take one down pass it around {$numberLeft} bottles of soda on the wall"
-          }
-        }
-      
-  
-console.log(annoyingSong(70))
+function annoyingSong(){
+}
       
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
