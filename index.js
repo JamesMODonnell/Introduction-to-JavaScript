@@ -18,7 +18,8 @@ Do the following:
    HINT: no function required
 */
 
-
+var votingAge = 18
+if 
 
 /*
 Task 1b - Values
@@ -149,10 +150,28 @@ Use the game function below to do the following:
 */
 
 function game(user, computer){
-    /*add your code here*/
+    if (user === "rock" && computer === "rock")
+    return "it's a tie"
+    if (user === "rock" && computer === "scissors")
+    return "you win!"
+    if (user === "rock" && computer === "paper")
+    return "you lose!"
+    if (user === "paper" && computer ==="rock")
+    return "you win!"
+    if (user === "paper" && computer ==="paper")
+    return "it's a tie"
+    if (user === "paper" && computer ==="scissors")
+    return "you lose!"
+    if (user === "scissors" && computer ==="rock")
+    return "you lose!"
+    if (user === "scissors" && computer ==="paper")
+    return "you win!"
+    if (user === "scissors" && computer ==="scissors")
+    return "it's a tie"
+
 }
   
-  
+  console.log(game("paper" , "scissors"                  ))
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -165,10 +184,10 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(km){
+   return km * .621371 
   }
-
+console.log(miles(15))
 
 
 //Task 5b - Feet to CM
@@ -179,10 +198,10 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
+function feet(cm){
+    return cm/ 30.48
   }
- 
+ console.log(feet(200))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -195,11 +214,17 @@ Using the annoyingSong function below do the following:
       "(number) bottles of soda on the wall, (number) bottles of soda, take one down pass it around (number left over) bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-        /*add your code here*/
-  }
-
-
+function annoyingSong(number){
+        var number;
+        var numberLeft;
+        for (i=number; i>=1; i--){
+          return "{$number} bottles of soda on the wall, {$number} bottles of soda, take one down pass it around {$numberLeft} bottles of soda on the wall"
+          }
+        }
+      
+  
+console.log(annoyingSong(70))
+      
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
 //Grade Calculator
